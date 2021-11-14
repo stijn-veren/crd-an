@@ -11,12 +11,12 @@
 
 ## Projects:
 
-**App:** https://app
+**Monsters Rolodex:** https://github.com/stijn-veren/crd-an/tree/main/monsters-rolodex
 
 > **Projects List:** https://github.com/stijn-veren/projects-list
 
 ## Resources:
 
-### App
+### Monsters Rolodex
 
 ...
