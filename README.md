@@ -19,4 +19,4 @@
 
 ### Monsters Rolodex
 
-...
+JSONPlaceholder: https://jsonplaceholder.typicode.com
