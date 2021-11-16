@@ -1,3 +1,5 @@
+import './homepage.styles.sass'
+
 const HomePage = () => (
   <div className="homepage">
     <div className="directory-menu">
