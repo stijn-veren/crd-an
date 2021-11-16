@@ -16,6 +16,8 @@
 
 **Pure React:** https://github.com/stijn-veren/crd-an/tree/main/pure-react/src
 
+**CRWN Clothing:** https://github.com/stijn-veren/crd-an/tree/main/crwn-clothing
+
 > **Projects List:** https://github.com/stijn-veren/projects-list
 
 ## Resources:
@@ -33,4 +35,13 @@ Robohash:
 ### Pure React
 
 UNPKG:
+
 - https://unpkg.com
+
+### CRWN Clothing
+
+Progressive Web App:
+
+- https://www.npmjs.com/package/cra-template-pwa
+
+- https://create-react-app.dev/docs/making-a-progressive-web-app/
