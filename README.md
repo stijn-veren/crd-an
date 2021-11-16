@@ -14,6 +14,8 @@
 
 **Monsters Rolodex:** https://github.com/stijn-veren/crd-an/tree/main/monsters-rolodex
 
+**Pure React:** https://github.com/stijn-veren/crd-an/tree/main/pure-react/src
+
 > **Projects List:** https://github.com/stijn-veren/projects-list
 
 ## Resources:
@@ -27,3 +29,8 @@ JSONPlaceholder:
 Robohash:
 
 - https://robohash.org
+
+### Pure React
+
+UNPKG:
+- https://unpkg.com
