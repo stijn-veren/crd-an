@@ -19,16 +19,16 @@
         ])
       }
 
-      const App = () => {
-        return React.createElement(
-          'div',
-          {},
-          React.createElement('h1', {}, 'React is Rendered!!!'),
-          React.createElement(Person, {
-            name: 'Stijn',
-            occupation: 'Developer',
-          })
-        )
+      class App extends React.Component {
+        render() {
+          return React.createElement('div', {}, [
+            React.createElement('h1', {}, 'React is Rendered!!!'),
+            React.createElement(Person, {
+              name: 'Stijn',
+              occupation: 'Developer',
+            }),
+          ])
+        }
       }
 
       ReactDOM.render(React.createElement(App), document.getElementById('root'))
