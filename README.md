@@ -45,3 +45,7 @@ Progressive Web App:
 - https://www.npmjs.com/package/cra-template-pwa
 
 - https://create-react-app.dev/docs/making-a-progressive-web-app/
+
+RealFaviconGenerator:
+
+- https://realfavicongenerator.net
