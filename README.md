@@ -49,3 +49,7 @@ Progressive Web App:
 RealFaviconGenerator:
 
 - https://realfavicongenerator.net
+
+#### Notes
+
+To update dev dependencies run: `npm update -D`
