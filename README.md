@@ -23,6 +23,7 @@
 ## Notes
 
 To update dev dependencies run: `npm update -D`
+
 Than you can run `npm audit fix`
 
 ## Resources:
