@@ -1,6 +1,8 @@
+// components
 import HomePage from './pages/homepage/homepage.component'
 
-import './App.css'
+// css
+import './App.sass'
 
 function App() {
   return (
