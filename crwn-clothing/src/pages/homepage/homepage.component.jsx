@@ -1,7 +1,7 @@
 // components
 import Directory from '../../components/directory/directory.component'
 
-// css
+// styles
 import './homepage.styles.sass'
 
 const HomePage = () => (
