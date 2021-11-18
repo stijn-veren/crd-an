@@ -1,5 +1,7 @@
+// components
 import { Card } from '../card/card.component'
 
+// styles
 import './card-list.styles.css'
 
 export const CardList = (props) => (

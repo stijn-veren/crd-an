@@ -1,3 +1,4 @@
+// styles
 import './card.styles.css'
 
 export const Card = (props) => (

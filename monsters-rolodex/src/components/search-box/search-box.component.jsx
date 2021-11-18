@@ -1,3 +1,4 @@
+// styles
 import './search-box.styles.css'
 
 export const SearchBox = (props) => (
