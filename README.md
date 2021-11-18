@@ -20,6 +20,12 @@
 
 > **Projects List:** https://github.com/stijn-veren/projects-list
 
+## Notes
+
+To update dev dependencies run: `npm update -D`
+
+Than you can run `npm audit fix`
+
 ## Resources:
 
 ### Monsters Rolodex
@@ -49,7 +55,3 @@ Progressive Web App:
 RealFaviconGenerator:
 
 - https://realfavicongenerator.net
-
-#### Notes
-
-To update dev dependencies run: `npm update -D`
