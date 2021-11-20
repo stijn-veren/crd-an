@@ -55,3 +55,9 @@ Progressive Web App:
 RealFaviconGenerator:
 
 - https://realfavicongenerator.net
+
+Firebase:
+
+- https://firebase.google.com
+
+- https://www.npmjs.com/package/firebase
