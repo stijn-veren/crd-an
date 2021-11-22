@@ -61,3 +61,13 @@ Firebase:
 - https://firebase.google.com
 
 - https://www.npmjs.com/package/firebase
+
+Redux:
+
+- https://redux.js.org
+
+- https://www.npmjs.com/package/redux
+
+- https://www.npmjs.com/package/redux-logger
+
+- https://www.npmjs.com/package/react-redux
