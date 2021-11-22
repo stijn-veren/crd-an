@@ -1,8 +1,8 @@
 // modules
 import { Component } from 'react'
-import CollectionPreview from '../../components/collection-preview/collection-preview.component'
 
 // components
+import CollectionPreview from '../../components/collection-preview/collection-preview.component'
 import SHOP_DATA from './shop.data'
 
 class ShopPage extends Component {
