@@ -1,5 +1,6 @@
 // components
 import SignIn from '../../components/sign-in/sign-in.component'
+import SignUp from '../../components/sign-up/sign-up.component'
 
 // styles
 import './sign-in-and-sign-up.styles.sass'
@@ -7,6 +8,7 @@ import './sign-in-and-sign-up.styles.sass'
 const SignInAndSignUpPage = () => (
   <div className="sign-in-and-sign-up">
     <SignIn />
+    <SignUp />
   </div>
 )
 
