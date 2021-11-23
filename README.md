@@ -75,3 +75,8 @@ Reselect:
 UTF-8 Dingbats:
 
 - https://www.w3schools.com/charsets/ref_utf_dingbats.asp
+
+Redux Persist:
+
+- https://www.npmjs.com/package/redux-persist
+- https://github.com/rt2zz/redux-persist
