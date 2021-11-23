@@ -71,3 +71,7 @@ Reselect:
 
 - https://www.npmjs.com/package/reselect
 - https://github.com/reduxjs/reselect
+
+UTF-8 Dingbats:
+
+- https://www.w3schools.com/charsets/ref_utf_dingbats.asp
