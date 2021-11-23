@@ -49,7 +49,6 @@ UNPKG:
 Progressive Web App:
 
 - https://www.npmjs.com/package/cra-template-pwa
-
 - https://create-react-app.dev/docs/making-a-progressive-web-app/
 
 RealFaviconGenerator:
@@ -59,15 +58,16 @@ RealFaviconGenerator:
 Firebase:
 
 - https://firebase.google.com
-
 - https://www.npmjs.com/package/firebase
 
 Redux:
 
 - https://redux.js.org
-
 - https://www.npmjs.com/package/redux
-
 - https://www.npmjs.com/package/redux-logger
-
 - https://www.npmjs.com/package/react-redux
+
+Reselect:
+
+- https://www.npmjs.com/package/reselect
+- https://github.com/reduxjs/reselect
