@@ -80,3 +80,8 @@ Redux Persist:
 
 - https://www.npmjs.com/package/redux-persist
 - https://github.com/rt2zz/redux-persist
+
+Lodash:
+
+- https://lodash.com
+- https://www.npmjs.com/package/lodash.memoize
