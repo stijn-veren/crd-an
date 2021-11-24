@@ -1,3 +1,4 @@
+// modules
 import { createSelector } from 'reselect'
 import memoize from 'lodash.memoize'
 
