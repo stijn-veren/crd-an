@@ -52,6 +52,7 @@ class SignUp extends Component {
 
   handleChange = (event) => {
     const { name, value } = event.target
+
     this.setState({ [name]: value })
   }
 
@@ -68,6 +69,7 @@ class SignUp extends Component {
             value={displayName}
             onChange={this.handleChange}
             label="Display Name"
+            required
           />
           <FormInput
             type="email"
@@ -75,6 +77,7 @@ class SignUp extends Component {
             value={email}
             onChange={this.handleChange}
             label="Email"
+            required
           />
           <FormInput
             type="password"
@@ -82,6 +85,7 @@ class SignUp extends Component {
             value={password}
             onChange={this.handleChange}
             label="Password"
+            required
           />
           <FormInput
             type="password"
@@ -89,6 +93,7 @@ class SignUp extends Component {
             value={confirmPassword}
             onChange={this.handleChange}
             label="Confirm Password"
+            required
           />
           <CustomButton type="submit">SIGN UP</CustomButton>
         </form>

@@ -1,7 +1,7 @@
 // modules
 import { connect } from 'react-redux'
 import { createStructuredSelector } from 'reselect'
-import { withRouter } from 'react-router'
+import { withRouter } from 'react-router-dom'
 
 // components
 import CustomButton from '../custom-button/custom-button.component'
@@ -25,7 +25,7 @@ const CartDropdown = ({ cartItems, history, dispatch }) => (
     </div>
     <CustomButton
       onClick={() => {
-        history.push('./checkout')
+        history.push('/checkout')
         dispatch(toggleCartHidden())
       }}
     >

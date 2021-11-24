@@ -1,0 +1,883 @@
+commit f43fa9ee8469a0e4b446c3939fe3bc6f1aa85e4b
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Wed Nov 24 19:52:40 2021 +0200
+
+    crwn-clothing: Minor syntax changes
+
+ 3 files changed, 3 insertions(+)
+
+commit 723f92286ab3d4bc782fcab22a5916b98f2cf9b3
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Wed Nov 24 19:48:50 2021 +0200
+
+    crwn-clothing: Add collection state into Redux
+
+ 5 files changed, 38 insertions(+), 22 deletions(-)
+
+commit 4b325cd69283fbf0d48f9efe23f1c8b860486145
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Wed Nov 24 19:22:16 2021 +0200
+
+    crwn-clothing: Add directory state into Redux
+
+ 4 files changed, 69 insertions(+), 53 deletions(-)
+
+commit 31c9a1cdfb5e393973f63f0150415083fa72e281
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Wed Nov 24 00:37:36 2021 +0200
+
+    crwn-clothing: Add Redux Persist to use local storage
+
+ 7 files changed, 49363 insertions(+), 10522 deletions(-)
+
+commit b9f051d37315786cd101e0516211ff1a2378b9cb
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Wed Nov 24 00:22:10 2021 +0200
+
+    crwn-clothing: Minor refactoring of comments
+
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit 867bd954e3dbccef2ab2a09c40ec1ce7a3d5527b
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Wed Nov 24 00:18:58 2021 +0200
+
+    crwn-clothing: Add a possibility to add and remove items from checkout
+
+ 6 files changed, 53 insertions(+), 4 deletions(-)
+
+commit 2594162311b73a51e69e44009e3aa999d84b40b4
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Wed Nov 24 00:05:18 2021 +0200
+
+    crwn-clothing: Add a possibility to remove items from cart
+
+ 4 files changed, 42 insertions(+), 12 deletions(-)
+
+commit 6390998ecb0f1701ca2076fb16be70fe1677cfb6
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 23 23:54:41 2021 +0200
+
+    crwn-clothing: Add checkout item component
+
+ 4 files changed, 52 insertions(+), 1 deletion(-)
+
+commit 6d9b32cd7967a5f7db7a1c897b24c2cc9b5b2b68
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 23 23:43:37 2021 +0200
+
+    crwn-clothing: Add dispatch action shorthand
+
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+
+commit 50742fdc233531286eb45820b1c68c6aaa8fe35d
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 23 23:25:51 2021 +0200
+
+    crwn-clothing: Add checkout page
+
+ 5 files changed, 88 insertions(+), 4 deletions(-)
+
+commit e849823041ea8176926c6e069713354caee5aadc
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 23 23:06:10 2021 +0200
+
+    crwn-clothing: Add empty message
+
+ 2 files changed, 11 insertions(+), 3 deletions(-)
+
+commit fe45bb4da4ce7b629cc78f5bffeb2c06fb688e66
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 23 22:47:28 2021 +0200
+
+    crwn-clothing: Add user selectors
+
+ 6 files changed, 30 insertions(+), 8 deletions(-)
+
+commit 4105d986f237887073e50e8cdc2480d1262d37d5
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 23 22:31:47 2021 +0200
+
+    crwn-clothing: Use reselect library
+
+ 3 files changed, 29 insertions(+), 5 deletions(-)
+
+commit 835e90cc685b2f2bff79f6c01898d0e6bb8614cb
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 23 22:08:52 2021 +0200
+
+    crwn-clothing: Install reselect
+
+ 3 files changed, 11 insertions(+), 5 deletions(-)
+
+commit 7650594a102a79226185e97e5fcd0a6f914b1e56
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 23 21:54:02 2021 +0200
+
+    crwn-clothing: Add cart item component
+
+ 4 files changed, 50 insertions(+), 4 deletions(-)
+
+commit 33c1fcc6035df3070afe9266ec5a5a54ace69c89
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 23 21:40:00 2021 +0200
+
+    crwn-clothing: Add multiple items to cart
+
+ 2 files changed, 17 insertions(+), 1 deletion(-)
+
+commit cf566bfb6466554b2221bc3ac68886f0cd5f4779
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 23 21:28:17 2021 +0200
+
+    crwn-clothing: Add Reducer to collection-item to add-item to the store
+
+ 5 files changed, 43 insertions(+), 17 deletions(-)
+
+commit c5e0ba1239ad3942522c36092301df36eed0e7b0
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 23 19:44:44 2021 +0200
+
+    crwn-clothing: Add styling to the carts
+
+ 4 files changed, 41 insertions(+), 2 deletions(-)
+
+commit c7b82d4267173991912cd379d568dd4ad0ed6d29
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 23 19:26:56 2021 +0200
+
+    crwn-clothing: Implement Redux to the Cart dropdown component
+
+ 6 files changed, 49 insertions(+), 6 deletions(-)
+
+commit 684f2e9dcde4fb39de974d61db2d13264eb69df6
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 23 19:26:34 2021 +0200
+
+    crwn-clothing: Add cart dropdown component
+
+ 2 files changed, 36 insertions(+)
+
+commit 6b3e7bdcb3122e7aa7252e9b62f09a60aeb45565
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 23 18:28:57 2021 +0200
+
+    crwn-clothing: Add cart icon component and add it to the header
+
+ 4 files changed, 87 insertions(+)
+
+commit 1c4a28ef02118d1b9daa4d222c2042452abfdefa
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 23 17:56:31 2021 +0200
+
+    crwn-clothing: Add redirect to home if user is signed in
+
+ 4 files changed, 28 insertions(+), 5 deletions(-)
+
+commit 6f0cbc9d36f13a7e689071baf851ad0f9d18e635
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 23 17:45:47 2021 +0200
+
+    crwn-clothing: Add redux base flow
+
+ 7 files changed, 70 insertions(+), 20 deletions(-)
+
+commit 87bc98776d8631eff58d560a746183ca52638934
+Merge: 09a2555 3b1eebc
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 23 16:54:50 2021 +0200
+
+    Merge branch 'main' of github.com:stijn-veren/crd-an into main
+
+commit 09a2555f12f45bdaa823d435eda7a16ca55c433d
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 23 16:54:47 2021 +0200
+
+    crwn-clothing: Install redux redux-logger react-redux
+
+ 2 files changed, 83 insertions(+), 2 deletions(-)
+
+commit 3b1eebc80bc7b6d38ed966a51c4995c1dfdb6ca2
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Mon Nov 22 04:57:20 2021 +0200
+
+    Update README.md
+
+ 1 file changed, 10 insertions(+)
+
+commit c516b78dd2662d4a7fb214e93f7a2c94ea58c9b7
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Mon Nov 22 04:43:55 2021 +0200
+
+    crwn-clothing: Finish sign in with email and password component
+
+ 2 files changed, 15 insertions(+), 5 deletions(-)
+
+commit 51cec4523976ddbbd91d49d40f3c6fc3d77ee26d
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Mon Nov 22 04:35:49 2021 +0200
+
+    crwn-clothing: Add sign up with email and password
+
+ 3 files changed, 8 insertions(+)
+
+commit 1f896be848513b4c25999159091723adb2b6e486
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Mon Nov 22 04:29:57 2021 +0200
+
+    crwn-clothing: Correct the styles
+
+ 2 files changed, 5 insertions(+), 7 deletions(-)
+
+commit e78d9107b8269539f3821bc3a9525bbe9804d171
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Mon Nov 22 04:19:27 2021 +0200
+
+    crwn-clothing: Create sign up component
+
+ 2 files changed, 107 insertions(+)
+
+commit 5d22e037a8858ddee42d729f8413eb551415b062
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Mon Nov 22 04:04:17 2021 +0200
+
+    crwn-clothing: Fix modules / components annotations
+
+ 3 files changed, 3 insertions(+), 2 deletions(-)
+
+commit 3f1e7604c3c534908e8381e6c0a3057877e234c0
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Mon Nov 22 03:56:54 2021 +0200
+
+    crwn-clothing: Remove extra clg
+
+ 1 file changed, 5 insertions(+), 10 deletions(-)
+
+commit 88d576e07c22e6a04b8af27e29b0eb4961fd98a3
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Mon Nov 22 03:55:02 2021 +0200
+
+    crwn-clothing: Add storing user data in the app
+
+ 1 file changed, 20 insertions(+), 2 deletions(-)
+
+commit 93722cbbf1ccbe4c5e879f2ba9e2e62669c2f777
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Mon Nov 22 03:42:32 2021 +0200
+
+    crwn-clothing: Add storing user data in Firebase
+
+ 2 files changed, 29 insertions(+), 5 deletions(-)
+
+commit c6e3cc14647072614f67fbf380a59db3f9d9a460
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sun Nov 21 04:36:09 2021 +0200
+
+    crwn-clothing: Minor styles changes
+
+ 3 files changed, 11 insertions(+), 5 deletions(-)
+
+commit 29f1d333b14bfda39b092dca9a5c64703b7971ec
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sun Nov 21 04:07:42 2021 +0200
+
+    crwn-clothing: Add sign in and sign out
+
+ 7 files changed, 46 insertions(+), 10 deletions(-)
+
+commit 8a3621603325c8658fb07a298515215bc672f932
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sun Nov 21 04:06:33 2021 +0200
+
+    crwn-clothing: Minor syntax changes
+
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+commit 7be70da5ba5fa1c1fe420faaed93a74d8bcdb584
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sun Nov 21 04:05:20 2021 +0200
+
+    crwn-clothing: Fix images links to local
+
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+commit 0ddba2f89b6dbd053323ffa1fed1eaad5339c9a9
+Merge: 3b19cb0 443ccca
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sun Nov 21 01:49:31 2021 +0200
+
+    Merge branch 'main' of github.com:stijn-veren/crd-an
+
+commit 3b19cb0b9185b0bf0c58177ed7e0332a2bc27acb
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sun Nov 21 01:49:28 2021 +0200
+
+    crwn-clothing: Add firebase auth and show user object in console
+
+ 1 file changed, 30 insertions(+), 11 deletions(-)
+
+commit c5337f4dc2fbf05d324bb4deb746cfe6c7f7cc59
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sun Nov 21 01:43:16 2021 +0200
+
+    crwn-clothing: Add Firebase and sigh in with google
+
+ 2 files changed, 29 insertions(+)
+
+commit 443ccca090e4f6eee4bf9b83fc8c814c56746f00
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sat Nov 20 19:55:16 2021 +0200
+
+    Update README.md
+
+ 1 file changed, 6 insertions(+)
+
+commit 664464a475b23928f2bd36cda2f0cf03d23c68cc
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sat Nov 20 03:50:34 2021 +0200
+
+    crwn-clothing: Minor refactor and syntax changes
+
+ 4 files changed, 8 insertions(+), 10 deletions(-)
+
+commit 1216ac3aa796b5c9016d6da1a58c365362e30b14
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sat Nov 20 03:39:32 2021 +0200
+
+    crwn-clothing: Install Firebase
+
+ 2 files changed, 10750 insertions(+), 10498 deletions(-)
+
+commit 473627203e00904cb2ed98a166fb7df8d9e87032
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sat Nov 20 03:38:59 2021 +0200
+
+    crwn-clothing: Remove package lock
+
+ 1 file changed, 36427 deletions(-)
+
+commit 531a8d58d6a5b3e98d25af7d8e95cae7462f3fdc
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Fri Nov 19 03:08:47 2021 +0200
+
+    crwn-clothing: Add import of sign in and sign up component into app
+
+ 1 file changed, 2 insertions(+)
+
+commit ef414813c966638abf9e202f6a194caaee434d30
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Fri Nov 19 03:08:21 2021 +0200
+
+    crwn-clothing: Add custom button component
+
+ 2 files changed, 30 insertions(+)
+
+commit 656896c0bb72370f9fa2ceec06419a9fd13783f5
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Fri Nov 19 03:07:50 2021 +0200
+
+    crwn-clothing: Add form-input component
+
+ 2 files changed, 65 insertions(+)
+
+commit 19792264dd0049aba70890059f9908b790d54238
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Fri Nov 19 03:07:36 2021 +0200
+
+    crwn-clothing: Add sign in component
+
+ 2 files changed, 72 insertions(+)
+
+commit a39f51c4b831bc569d6decf522cac028776251aa
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Fri Nov 19 03:07:25 2021 +0200
+
+    crwn-clothing: Add sign in and sing up component
+
+ 2 files changed, 13 insertions(+)
+
+commit 1f89602f7581c318d7d179dc1ca6adb1f1cc4c4b
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Thu Nov 18 19:22:53 2021 +0200
+
+    crwn-clothing: Add header component and links to home, shop page and contact
+
+ 5 files changed, 70 insertions(+)
+
+commit 1d28dcd7b0c6223166f29ebeba9b29afc7604ba1
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Thu Nov 18 19:08:32 2021 +0200
+
+    crwn-clothing: Add images
+
+ 40 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 8fe1bec9cf819f6ba272d862f699a9c45a816726
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Thu Nov 18 19:08:24 2021 +0200
+
+    crwn-clothing: Add collection item component
+
+ 2 files changed, 19 insertions(+), 2 deletions(-)
+
+commit bdff66b396b87ee1795394a254ca9a628e42f787
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Thu Nov 18 19:08:03 2021 +0200
+
+    crwn-clothing: Fix image links in shop data
+
+ 1 file changed, 35 deletions(-)
+
+commit 82214944c187b5a3c694e322ec1b199fcc8e100f
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Thu Nov 18 19:07:32 2021 +0200
+
+    crwn-clothing: Fix and add some styles
+
+ 4 files changed, 42 insertions(+), 9 deletions(-)
+
+commit 34853c484a89b7bb6ab21d907964d1509efec9b8
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Thu Nov 18 18:36:06 2021 +0200
+
+    crwn-clothing: Add collection preview component
+
+ 3 files changed, 26 insertions(+), 1 deletion(-)
+
+commit ace7193c7760914d64c54195517c7122a8747f3d
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Thu Nov 18 18:15:26 2021 +0200
+
+    crwn-clothing: Add shop component
+
+ 3 files changed, 23 insertions(+)
+
+commit 4de3614b5dcb274761a895f7aeb9ebe37b4a6fff
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Thu Nov 18 18:15:08 2021 +0200
+
+    crwn-clothing: Add shop data
+
+ 1 file changed, 286 insertions(+)
+
+commit 97cfe3bf6d5f01609b7361f2b62dfb40fdc7b873
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Thu Nov 18 18:14:39 2021 +0200
+
+    crwn-clothing: Remove HatsPage
+
+ 1 file changed, 7 deletions(-)
+
+commit 5300166c7dc6223c7293cc7a7d263cca399267fb
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Thu Nov 18 17:07:05 2021 +0200
+
+    crwn-clothing: Minor style and syntax changes
+
+ 4 files changed, 22 insertions(+), 14 deletions(-)
+
+commit 1481f724a4e6a040cca016043ccb1273a6831e66
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Thu Nov 18 17:06:45 2021 +0200
+
+    crwn-clothing: Add routing
+
+ 3 files changed, 31 insertions(+), 9 deletions(-)
+
+commit f246eb9a636d92b04957a2b69a04772e7aa4bae1
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Thu Nov 18 17:02:10 2021 +0200
+
+    crwn-clothing: Fix version of react router
+
+ 3 files changed, 46935 insertions(+), 10033 deletions(-)
+
+commit c1f912d2d36ac9e4892e6da31baa8a13aed5bc0b
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Thu Nov 18 16:32:15 2021 +0200
+
+    crwn-clothing: Add comments
+
+ 5 files changed, 11 insertions(+)
+
+commit 7943e9071c68cfa6ae7721aa79a08a99eca632f3
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Thu Nov 18 16:28:40 2021 +0200
+
+    crwn-clothing: Install react router
+
+ 2 files changed, 24 insertions(+), 1 deletion(-)
+
+commit 3cbb1880fc90517d706cbd2c701ae3b5e1de0121
+Merge: 4636cfe b1968de
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Thu Nov 18 02:58:59 2021 +0200
+
+    Merge branch 'main' of github.com:stijn-veren/crd-an
+
+commit 4636cfe0f92068145d5413524a3803f6158e442f
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Thu Nov 18 02:58:55 2021 +0200
+
+    monsters-rolodex: Update to latest version, remove and fix vulnerabilities
+
+ 2 files changed, 38928 insertions(+), 11465 deletions(-)
+
+commit b1968de159a6bd32c9ccd2f32c8317933f285e3f
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Wed Nov 17 17:12:48 2021 +0200
+
+    Update README.md
+
+ 1 file changed, 1 insertion(+)
+
+commit b527cc413e299e522cee23c33a50799288a8dce5
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Wed Nov 17 17:12:09 2021 +0200
+
+    Update README.md
+
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+
+commit 5a8e4a308eb468c16314249df0e0717b7d1c80a2
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Wed Nov 17 16:23:39 2021 +0200
+
+    Update README.md
+
+ 1 file changed, 4 insertions(+)
+
+commit 20789d551a429dee897a7f902e130f75c95768d5
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Wed Nov 17 16:17:18 2021 +0200
+
+    crwn-clothing: Add menu item component
+
+ 1 file changed, 18 insertions(+)
+
+commit 01d236e6d31a20cf0bd438aa16b5e99ef3810b85
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Wed Nov 17 16:17:05 2021 +0200
+
+    crwn-clothing: Add directory component
+
+ 2 files changed, 68 insertions(+), 32 deletions(-)
+
+commit 40e128f6e1d0c9c72a0a5c1b7361abd1a3181772
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Wed Nov 17 16:16:33 2021 +0200
+
+    crwn-clothing: Fix styles import
+
+ 2 files changed, 9 insertions(+), 2 deletions(-)
+
+commit 66a242f433ded273cadba742d72a2915859dc842
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Wed Nov 17 16:15:55 2021 +0200
+
+    crwn-clothing: Rename, refactor and add some css styles
+
+ 6 files changed, 65 insertions(+), 41 deletions(-)
+
+commit 02f01fae9907e9a4775101c65569da033659131c
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Wed Nov 17 16:14:40 2021 +0200
+
+    crwn-clothing: Add font
+
+ 1 file changed, 11 insertions(+)
+
+commit 7593948c36b5765d45fd10a328335dc459fa7155
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Wed Nov 17 03:37:55 2021 +0200
+
+    crwn-clothing: Move homepage component to the separate directory
+
+ 3 files changed, 1 insertion(+), 1 deletion(-)
+
+commit c707a29aa2db4ded8a648ca5c3c7ceb266439b0b
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 16 21:23:07 2021 +0200
+
+    crwn-clothing: Add base homepage styles sass
+
+ 2 files changed, 48 insertions(+)
+
+commit b6bbf09392619cdbc0c5875b829a1d967b3e1d7c
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 16 20:29:08 2021 +0200
+
+    crwn-clothing: Install Sass
+
+ 2 files changed, 46 insertions(+), 1 deletion(-)
+
+commit d9e28338dde1bad2d9aeae391ae552eec09c3755
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 16 20:17:49 2021 +0200
+
+    crwn-clothing: Add component HomePage with minimal base structure
+
+ 2 files changed, 45 insertions(+), 1 deletion(-)
+
+commit e5aa6ee091ad95152a2862de002d422bb137d880
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 16 20:10:26 2021 +0200
+
+    Update README.md
+
+ 1 file changed, 4 insertions(+)
+
+commit aa4e7fba40b855fd52c5f8301866f201b086b379
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 16 20:09:26 2021 +0200
+
+    crwn-clothing: Add favicon and clean html
+
+ 11 files changed, 874 insertions(+), 41 deletions(-)
+
+commit 8582c9d68681e37580839d133251572061abdaaf
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 16 20:09:10 2021 +0200
+
+    crwn-clothing: Clean the files
+
+ 4 files changed, 8 insertions(+), 90 deletions(-)
+
+commit 3ae47845d6c316ff15f20ec2960a505c0c890d76
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 16 20:08:33 2021 +0200
+
+    crwn-clothing: Remove extra files
+
+ 6 files changed, 34 deletions(-)
+
+commit 051ebba6a38b00754d2ec92f9962263ffb8b4897
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 16 19:02:58 2021 +0200
+
+    Update README.md
+
+ 1 file changed, 11 insertions(+)
+
+commit eafc84b499545667e1b63fcd29c0248cfaaee3d9
+Merge: 8350180 6013625
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 16 19:01:47 2021 +0200
+
+    Merge branch 'main' of github.com:stijn-veren/crd-an
+
+commit 835018001772a31a4e9ab22165feb2dce908199b
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 16 19:01:42 2021 +0200
+
+    crwn-clothing: Initial commit
+
+ 19 files changed, 11949 insertions(+)
+
+commit 60136252356fa3bf68998dbc33322871bacd74fb
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 16 18:08:59 2021 +0200
+
+    Update README.md
+
+ 1 file changed, 7 insertions(+)
+
+commit c46c78bf838b8566411aace4cc5cbf5d20489fe3
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 16 05:19:53 2021 +0200
+
+    pure-react: Refactor into a class component
+
+ 1 file changed, 10 insertions(+), 10 deletions(-)
+
+commit b6a3cb8d7a638e6076487d1b654d9e59ce4031be
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 16 05:13:39 2021 +0200
+
+    pure-react: Add props
+
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+
+commit 9b984f12521a70f81c1f09bfaef288ca7151a2ce
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 16 05:12:25 2021 +0200
+
+    pure-react: Add first component
+
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+commit 88353fa182bf4055be120ea253b0cea62f53b16c
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 16 05:09:23 2021 +0200
+
+    pure-react: Initial commit
+
+ 1 file changed, 26 insertions(+)
+
+commit 4bc07d80453d0c04945ef416556124516bdbf262
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 16 04:58:36 2021 +0200
+
+    monsters-rolodex: Add some syntax changes
+
+ 2 files changed, 8 insertions(+), 9 deletions(-)
+
+commit 39928f3e1cf4bf05216142487c195239639de46f
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Tue Nov 16 04:56:18 2021 +0200
+
+    monsters-rolodex: Add google font Bigelow Rules
+
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+
+commit bf08b3171e34eb82289449d12626fe560f044496
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Mon Nov 15 00:43:58 2021 +0200
+
+    monsters-rolodex: Add search-box component
+
+ 2 files changed, 19 insertions(+), 5 deletions(-)
+
+commit a9c27c67c3d08c550f125e77de32d9a24dfc866f
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Mon Nov 15 00:43:32 2021 +0200
+
+    monsters-rolodex: Add some css
+
+ 4 files changed, 39 insertions(+)
+
+commit 7e1380edc8c71b9006c8e2d2f54985891c6b4f05
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Mon Nov 15 00:28:04 2021 +0200
+
+    monsters-rolodex: Add search functionality
+
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+
+commit c447f9caeb83b5e68ebd32fb4ae91398ffd69886
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Mon Nov 15 00:03:46 2021 +0200
+
+    monsters-rolodex: Add image from robohash and email
+
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+commit 366034ff7be868d4b87e7bac02d07013a3b81920
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sun Nov 14 23:41:45 2021 +0200
+
+    Update README.md
+
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+commit e9135baed7ce4a699cb823564247d4f73f5d46fa
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sun Nov 14 23:29:41 2021 +0200
+
+    monsters-rolodex: Add card component
+
+ 3 files changed, 33 insertions(+), 1 deletion(-)
+
+commit 30dbdaab3b8a80f57eff9aea52e8460c94c57409
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sun Nov 14 23:29:20 2021 +0200
+
+    monsters-rolodex: Add using props and css to the card-list
+
+ 3 files changed, 11 insertions(+), 6 deletions(-)
+
+commit f7b65c59024b8dbb9b8be10c59eaebde298f098c
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sun Nov 14 23:05:27 2021 +0200
+
+    monsters-rolodex: Add console.log for props and its children
+
+ 1 file changed, 3 insertions(+)
+
+commit eb320671db9cbd0d16c1445da4847a0b5e8517d9
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sun Nov 14 23:04:49 2021 +0200
+
+    monsters-rolodex: Add card-list component
+
+ 1 file changed, 4 insertions(+)
+
+commit 95f57b64bccfa1b5167117c74bf2f46004a309a1
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sun Nov 14 22:54:34 2021 +0200
+
+    monsters-rolodex: Get names from remote server through json
+
+ 1 file changed, 26 insertions(+), 22 deletions(-)
+
+commit 36ceae2f21af241c194f81bc166150b36cc16fdd
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sun Nov 14 22:53:56 2021 +0200
+
+    monsters-rolodex: Clean the code
+
+ 2 files changed, 4 insertions(+), 42 deletions(-)
+
+commit 24027eee67e4493afe9a2b41d5e4b7921723bfd5
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sun Nov 14 22:52:37 2021 +0200
+
+    Add prettierrc
+
+ 1 file changed, 5 insertions(+)
+
+commit 7906ee7d67e4736ec045a6d59fca4ab2eb040a7b
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sun Nov 14 22:52:28 2021 +0200
+
+    Add gitignore
+
+ 1 file changed, 75 insertions(+)
+
+commit 077f2843789f8b5635525b78fbaf91fafc5dad91
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sun Nov 14 22:50:48 2021 +0200
+
+    monsters-rolodex: Remove extra files
+
+ 11 files changed, 106 deletions(-)
+
+commit 46be452df7af2ed565c7a5d2785365cde5f7595b
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sun Nov 14 22:36:17 2021 +0200
+
+    Update README.md
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 32a07efad83ef633d33a317675e118c97c478f03
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sun Nov 14 21:14:11 2021 +0200
+
+    Update README.md
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 42fd08d3b0b330bbc2130bd8b8f4b36a7b3b578d
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sun Nov 14 21:03:46 2021 +0200
+
+    monsters-rolodex: Initial commit
+
+ 18 files changed, 11787 insertions(+)
+
+commit 783286a66dc62c74af8a748aa9eb481f18a89c4a
+Author: Kostiantyn Verenych <kverenych@atlassian.com>
+Date:   Sun Nov 14 20:32:22 2021 +0200
+
+    Update README.md
+
+ 1 file changed, 22 insertions(+), 2 deletions(-)
+
+commit f76c34ef3ed418602934e38cd47866422dec925f
+Author: Kostiantyn Verenych <stijn.veren@gmail.com>
+Date:   Sun Nov 14 20:11:50 2021 +0200
+
+    Initial commit
+
+ 1 file changed, 2 insertions(+)
