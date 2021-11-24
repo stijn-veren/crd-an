@@ -26,6 +26,8 @@ To update dev dependencies run: `npm update -D`
 
 Than you can run `npm audit fix`
 
+Hashtables vs. Arrays: https://www.kirupa.com/html5/hashtables_vs_arrays.htm
+
 ## Resources:
 
 ### Monsters Rolodex
