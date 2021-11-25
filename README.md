@@ -28,6 +28,14 @@ Than you can run `npm audit fix`
 
 Hashtables vs. Arrays: https://www.kirupa.com/html5/hashtables_vs_arrays.htm
 
+In Heroku, you may have problems with pushing to the master branch. What you can do is to start a new branch using
+
+`git checkout -b tempbranch`
+
+and then push using
+
+`git push heroku tempbranch`
+
 ## Resources:
 
 ### Monsters Rolodex
@@ -92,3 +100,16 @@ Stripe:
 
 - https://stripe.com
 - https://www.npmjs.com/package/react-stripe-checkout
+
+Heroku
+
+- heroku.com
+- https://devcenter.heroku.com/articles/heroku-cli
+
+Heroku Buildpack for create-react-app:
+
+- https://github.com/mars/create-react-app-buildpack
+- `heroku create crwn-live-crd-an --buildpack https://github.com/mars/create-react-app-buildpack.git`
+- `heroku git:remote -a crwn-live-crd-an`
+- `git checkout -b herokubranch`
+- `git push heroku herokubranch`
