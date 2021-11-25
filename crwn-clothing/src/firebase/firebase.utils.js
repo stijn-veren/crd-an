@@ -1,7 +1,6 @@
-// modules
-import firebase from 'firebase/compat/app'
-import 'firebase/compat/firestore'
-import 'firebase/compat/auth'
+import firebase from 'firebase/app'
+import 'firebase/firestore'
+import 'firebase/auth'
 
 const config = {
   apiKey: 'AIzaSyBo3rNEhw1-DrmHaRgMwoOHjTCiucNbKTg',
@@ -13,6 +12,8 @@ const config = {
   measurementId: 'G-VGXD7CZMNR',
 }
 
+firebase.initializeApp(config)
+
 export const createUserProfileDocument = async (userAuth, additionalData) => {
   if (!userAuth) return
 
@@ -23,7 +24,6 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
   if (!snapShot.exists) {
     const { displayName, email } = userAuth
     const createdAt = new Date()
-
     try {
       await userRef.set({
         displayName,
@@ -54,7 +54,23 @@ export const addCollectionAndDocuments = async (
   return await batch.commit()
 }
 
-firebase.initializeApp(config)
+export const convertCollectionsSnapshotToMap = (collections) => {
+  const transformedCollection = collections.docs.map((doc) => {
+    const { title, items } = doc.data()
+
+    return {
+      routeName: encodeURI(title.toLowerCase()),
+      id: doc.id,
+      title,
+      items,
+    }
+  })
+
+  return transformedCollection.reduce((accumulator, collection) => {
+    accumulator[collection.title.toLowerCase()] = collection
+    return accumulator
+  }, {})
+}
 
 export const auth = firebase.auth()
 export const firestore = firebase.firestore()

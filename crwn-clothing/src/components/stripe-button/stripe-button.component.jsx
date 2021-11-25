@@ -1,4 +1,4 @@
-// modules
+import React from 'react'
 import StripeCheckout from 'react-stripe-checkout'
 
 const StripeCheckoutButton = ({ price }) => {
@@ -8,7 +8,7 @@ const StripeCheckoutButton = ({ price }) => {
 
   const onToken = (token) => {
     console.log(token)
-    alert('Payment Successful')
+    alert('Payment Succesful!')
   }
 
   return (
