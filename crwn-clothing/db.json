@@ -1,0 +1,247 @@
+{
+  "womens":{
+    "routeName":"womens",
+    "id":"lIUqfGgI9CDPI0s62utb",
+    "title":"Womens",
+    "items":[
+      {
+        "imageUrl":"/images/shop-img/womens/blue-tank.png",
+        "id":23,
+        "price":25,
+        "name":"Blue Tanktop"
+      },
+      {
+        "name":"Floral Blouse",
+        "id":24,
+        "price":20,
+        "imageUrl":"/images/shop-img/womens/floral-blouse.png"
+      },
+      {
+        "imageUrl":"/images/shop-img/womens/floral-skirt.png",
+        "price":80,
+        "name":"Floral Dress",
+        "id":25
+      },
+      {
+        "imageUrl":"/images/shop-img/womens/red-polka-dot-dress.png",
+        "id":26,
+        "name":"Red Dots Dress",
+        "price":80
+      },
+      {
+        "name":"Striped Sweater",
+        "price":45,
+        "imageUrl":"/images/shop-img/womens/striped-sweater.png",
+        "id":27
+      },
+      {
+        "id":28,
+        "name":"Yellow Track Suit",
+        "imageUrl":"/images/shop-img/womens/yellow-track-suit.png",
+        "price":135
+      },
+      {
+        "price":20,
+        "imageUrl":"/images/shop-img/womens/white-vest.png",
+        "id":29,
+        "name":"White Blouse"
+      }
+    ]
+  },
+  "sneakers":{
+    "routeName":"sneakers",
+    "id":"wMl8oDBCO8HFgEdz3ZtI",
+    "title":"Sneakers",
+    "items":[
+      {
+        "id":10,
+        "name":"Adidas NMD",
+        "imageUrl":"/images/shop-img/sneakers/adidas-nmd.png",
+        "price":220
+      },
+      {
+        "id":11,
+        "price":280,
+        "imageUrl":"/images/shop-img/sneakers/yeezy.png",
+        "name":"Adidas Yeezy"
+      },
+      {
+        "name":"Black Converse",
+        "imageUrl":"/images/shop-img/sneakers/black-converse.png",
+        "id":12,
+        "price":110
+      },
+      {
+        "name":"Nike White AirForce",
+        "id":13,
+        "imageUrl":"/images/shop-img/sneakers/white-nike-high-tops.png",
+        "price":160
+      },
+      {
+        "price":160,
+        "id":14,
+        "name":"Nike Red High Tops",
+        "imageUrl":"/images/shop-img/sneakers/nikes-red.png"
+      },
+      {
+        "price":160,
+        "imageUrl":"/images/shop-img/sneakers/nike-brown.png",
+        "name":"Nike Brown High Tops",
+        "id":15
+      },
+      {
+        "name":"Air Jordan Limited",
+        "imageUrl":"/images/shop-img/sneakers/nike-funky.png",
+        "id":16,
+        "price":190
+      },
+      {
+        "price":200,
+        "id":17,
+        "imageUrl":"/images/shop-img/sneakers/timberlands.png",
+        "name":"Timberlands"
+      }
+    ]
+  },
+  "jackets":{
+    "routeName":"jackets",
+    "id":"rSuIc0oobecSlaPPhHAD",
+    "title":"Jackets",
+    "items":[
+      {
+        "imageUrl":"/images/shop-img/jackets/black-shearling.png",
+        "price":125,
+        "name":"Black Jean Shearling",
+        "id":18
+      },
+      {
+        "name":"Blue Jean Jacket",
+        "imageUrl":"/images/shop-img/jackets/blue-jean-jacket.png",
+        "id":19,
+        "price":90
+      },
+      {
+        "name":"Grey Jean Jacket",
+        "imageUrl":"/images/shop-img/jackets/grey-jean-jacket.png",
+        "id":20,
+        "price":90
+      },
+      {
+        "name":"Brown Shearling",
+        "id":21,
+        "price":165,
+        "imageUrl":"/images/shop-img/jackets/brown-shearling.png"
+      },
+      {
+        "imageUrl":"/images/shop-img/jackets/brown-trench.png",
+        "price":185,
+        "id":22,
+        "name":"Tan Trench"
+      }
+    ]
+  },
+  "hats":{
+    "routeName":"hats",
+    "id":"rmh2yjs9qU9sJBznlWTW",
+    "title":"Hats",
+    "items":[
+      {
+        "imageUrl":"/images/shop-img/hats/brown-brim.png",
+        "price":25,
+        "id":1,
+        "name":"Brown Brim"
+      },
+      {
+        "imageUrl":"/images/shop-img/hats/blue-beanie.png",
+        "name":"Blue Beanie",
+        "id":2,
+        "price":18
+      },
+      {
+        "name":"Brown Cowboy",
+        "price":35,
+        "id":3,
+        "imageUrl":"/images/shop-img/hats/brown-cowboy.png"
+      },
+      {
+        "id":4,
+        "price":25,
+        "imageUrl":"/images/shop-img/hats/grey-brim.png",
+        "name":"Grey Brim"
+      },
+      {
+        "id":5,
+        "imageUrl":"/images/shop-img/hats/green-beanie.png",
+        "price":18,
+        "name":"Green Beanie"
+      },
+      {
+        "price":14,
+        "imageUrl":"/images/shop-img/hats/palm-tree-cap.png",
+        "name":"Palm Tree Cap",
+        "id":6
+      },
+      {
+        "id":7,
+        "name":"Red Beanie",
+        "imageUrl":"/images/shop-img/hats/red-beanie.png",
+        "price":18
+      },
+      {
+        "id":8,
+        "price":14,
+        "name":"Wolf Cap",
+        "imageUrl":"/images/shop-img/hats/wolf-cap.png"
+      },
+      {
+        "imageUrl":"/images/shop-img/hats/blue-snapback.png",
+        "price":16,
+        "id":9,
+        "name":"Blue Snapback"
+      }
+    ]
+  },
+  "mens":{
+    "routeName":"mens",
+    "id":"zVHVgW2ABRRs8kV7sFSB",
+    "title":"Mens",
+    "items":[
+      {
+        "name":"Camo Down Vest",
+        "imageUrl":"/images/shop-img/mens/camo-vest.png",
+        "id":30,
+        "price":325
+      },
+      {
+        "imageUrl":"/images/shop-img/mens/floral-shirt.png",
+        "price":20,
+        "name":"Floral T-shirt",
+        "id":31
+      },
+      {
+        "price":25,
+        "imageUrl":"/images/shop-img/mens/long-sleeve.png",
+        "name":"Black & White Longsleeve",
+        "id":32
+      },
+      {
+        "imageUrl":"/images/shop-img/mens/pink-shirt.png",
+        "price":25,
+        "id":33,
+        "name":"Pink T-shirt"
+      },
+      {
+        "price":40,
+        "imageUrl":"/images/shop-img/mens/roll-up-jean-shirt.png",
+        "name":"Jean Long Sleeve",
+        "id":34
+      },
+      {
+        "imageUrl":"/images/shop-img/mens/polka-dot-shirt.png",
+        "id":35,
+        "name":"Burgundy T-shirt",
+        "price":25
+      }
+    ]
+  }
+}
