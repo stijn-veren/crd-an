@@ -28,6 +28,8 @@ Than you can run `npm audit fix`
 
 Hashtables vs. Arrays: https://www.kirupa.com/html5/hashtables_vs_arrays.htm
 
+BEM  - http://getbem.com
+
 ## Resources:
 
 ### Monsters Rolodex
@@ -101,3 +103,7 @@ Heroku
 Heroku Buildpack for create-react-app:
 
 - https://github.com/mars/create-react-app-buildpack
+
+styled-components:
+
+- https://styled-components.com
