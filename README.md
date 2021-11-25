@@ -87,3 +87,8 @@ Lodash:
 
 - https://lodash.com
 - https://www.npmjs.com/package/lodash.memoize
+
+Stripe:
+
+- https://stripe.com
+- https://www.npmjs.com/package/react-stripe-checkout
